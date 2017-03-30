@@ -24,16 +24,16 @@ Generate assets layer syntax for Photoshop CC 2014 and above to render different
 
 #### FAQs
 
-Q: Why can't i paste the output into the photoshop layer?
+**Q: Why can't i paste the output into the photoshop layer?**
 There is a 255 character limit in the layer name. To fix this, use a shorter file name and try again.
 
-Q: TypeError: 'NoneType' object is not subscriptable'
+**Q: TypeError: 'NoneType' object is not subscriptable'**
 This image cannot be used. Render it again. Use 'Save As' on Photoshop instead of 'Export > Save as Web' as certain metadata could have been lost during the export phase.
 
-Q: I pasted the output into the layer name but nothing is happening
+**Q: I pasted the output into the layer name but nothing is happening**
 Check your desktop for the generated folder. Also ensure that the 'Photoshop > File > Generate > Image Assets' option is checked.
 
-Q: FileNotFoundError: [Errno 2] No such file or directory: 'foo.jpg' 
+**Q: FileNotFoundError: [Errno 2] No such file or directory: 'foo.jpg'**
 Please ensure that the image is in the same directory as this script.
 
 #### Resources
